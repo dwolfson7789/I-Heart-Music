@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>PROJECT 2</title>
+    <link rel="stylesheet" href="style.css" charset="utf-8">
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src = "API_KEY.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js" charset="utf-8"></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+        <header>
+            <nav id="clearfix">
+              <a href="#artist">ARTIST</a>
+              <a href="#about">BIO</a>
+              <a href="#similar">SIMILAR</a>
+            </nav>
+      </header>
+      <!-- <div class="hero">
+          </div> -->
+        <h1>I &#x2765 MUSIC</h1>
+          <h2>DISCOVER</h2>
+              <form id = "value">
+                  <input id ="userInput" type="textbox" placeholder="Serch by artist...."></input>
+                 </label>
+             <button id="submit-btn" type="button">&#x2765</button>
+          </form>
+
+    <div id="artist-template"></div>
+        <script id="artist-widget" type="text/x-handlebars-template">
+            <hr></hr>
+
+                <section id="artist">
+                  <h3>{{artist.name}}</h3>
+                      </section>
+
+                <section id="band">
+                    <img src={{image}}>
+                      <h4>{{tag}}</h4>
+                        <p>{{url}}</p>
+                    </section>
+
+                  <section id="about">
+                      <p>{{artist.bio.content}}</p>
+                    </section>
+
+                  <hr></hr>
+
+                  <section id="similar">
+                    <p>{{#each artist.similar.artist}} </p>
+                        <h3>{{name}}</h3>
+                          <p>{{url}}</p>
+                      {{/each}}
+                    </section>
+                    <br></br>
+                      <a href="#">I &#x2765 MUSIC</a>
+                  </script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js" charset="utf-8"></script>
+
+    </div>
+  </body>
+</html>

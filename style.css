@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css?family=Megrim);
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+@import url(https://fonts.googleapis.com/css?family=Henny+Penny);
+@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great);
+
+* {
+  text-align: center;
+  padding: 5px;
+}
+
+h1 {
+  color: black;
+  font-family: 'Fredericka the Great', cursive;
+  padding: 38px;
+
+}
+
+h2 {
+  font-family: 'Fredericka the Great', cursive;
+  color: limegreen;
+  padding-bottom: 20px;
+  font-size: 32px;
+
+}
+
+h3 {
+  font-family: 'Megrim', cursive;
+  text-decoration: bold;
+  color: limegreen;
+  padding-top: 100px;
+  font-size: 40px;
+
+}
+
+h4 {
+    font-size: 32px;
+    font-family: 'Henny Penny', cursive;
+
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    background-color: #101;
+
+}
+
+
+a {
+    font-family: 'Megrim', cursive;
+    text-decoration: none;
+    font-size: 25px;
+    color: limegreen;
+    padding: 25px;
+
+}
+
+nav a {
+  color: white;
+  float: left;
+  font-family: 'Fredericka the Great', cursive;
+  padding: 5px 20px;
+  border-right: 1px solid #fff;
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+
+button {
+  width: 135px;
+  height: 75px;
+  font-family: 'Bangers', cursive;
+  padding: 25px;
+  padding-top: 0px;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  border: outset grey;
+  padding: 10px;
+
+}
+
+input {
+  font-family: 'Bangers', cursive;
+  font-size: 30px;
+  color: limegreen;
+  width: 250px;
+  height: 20px;
+  padding: 20px;
+  background-color: black;
+  border: outset white;
+
+
+}
+
+.wrapper {
+  width: 100%;
+
+}
+
+
+#artist-template {
+  padding-top: -300px;
+
+}
+
+#band img {
+  padding: 15px;
+
+}
+
+#band p  {
+  font-family: 'Rock Salt', cursive;
+  font-size: 25px;
+
+}
+
+#about p {
+  font-family: monospace;
+}
+
+#similar p {
+    font-family: monospace;
+}
+
+/*.hero{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 800px;
+  background-image: url("file:///Users/Drew/Desktop/wdi-al-Khwarizmi/Projects/project-two/images/music-wallpaper.jpg");
+  background-size: cover;
+  font-family: 'Megrim', cursive;
+  color: white;
+}*/
