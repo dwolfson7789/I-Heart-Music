@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>PROJECT 2</title>
+    <link rel="stylesheet" href="style.css" charset="utf-8">
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src = "API_KEY.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js" charset="utf-8"></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+        <header>
+            <nav id="clearfix">
+              <a href="#artist">ARTIST</a>
+              <a href="#about">BIO</a>
+              <a href="#similar">SIMILAR</a>
+              <a id="head" style="color:limegreen;">I &#x2765 MUSIC</a>
+            </nav>
+      </header>
+      <!-- <div class="hero">
+          </div> -->
+    <h1>I &#x2765 MUSIC</h1>
+          <h2>DISCOVER MUSIC</h2>
+          <h4> &#9836; &#9835;	&#9835;	&#9834;</h4>
+              <form id = "value">
+                  <input id ="userInput" type="textbox" placeholder="Serch by artist...."></input>
+                 </label>
+             <button id="submit-btn" type="button">&#x2765</button>
+          </form>
+
+  <div id="artist-template"></div>
+      <script id="artist-widget" type="text/x-handlebars-template">
+          <hr></hr>
+        <section id="artist">
+        <h3>{{artist.name}}</h3>
+          </section>
+
+          <section id="band">
+              <img src={{image}}>
+                <h4>{{tag}}</h4>
+                  <p>{{url}}</p>
+              </section>
+
+              <section id="about">
+                  <p>{{artist.bio.content}}</p>
+                </section>
+
+              <hr></hr>
+
+          <section id="similar">
+              <p>{{#each artist.similar.artist}} </p>
+                  <h3>{{name}}</h3>
+                    <p>{{url}}</p>
+                {{/each}}
+              </section>
+              <br></br>
+                <a href="#">I &#x2765 MUSIC</a>
+            </script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js" charset="utf-8"></script>
+</br>
+</br>
+  <footer>
+    <div id="social">
+    <a href="mailto:drewwolfson1@gmail.com">
+      <img src="http://newgmailaccount.com/wp-content/uploads/2015/05/New-gmail-account.png" alt="Gmail" width="35" height="35"/></a>
+
+      <a href="https://www.facebook.com/drew.a.wolfson"><img title="facebook"   src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/facebook_circle_color-512.png" alt="facebook" width="35" height="35" /></a>
+
+      <a href="https://www.linkedin.com/in/drew-wolfson-80950153"><img title="linkedin" src="http://sensesolent.co.uk/wp-content/themes/sensetheme/icons/linkedin.png" alt="linkedin" width="35" height="35" /></a>
+
+      <a href="https://twitter.com/drew_a_wolfson7"><img title="twitter" src="http://ilaps.co/images/tw.png" alt="twitter" width="35" height="35" /></a>
+
+      <a href="https://github.com/dwolfson7789"><img title="github" src="http://www.francislanglois.com/assets/github-black-white.png" alt="github" width="35" height="35" /></a>
+       </div>
+    </footer>
+  </div>
+</body>
+</html>
