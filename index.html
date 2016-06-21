@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>PROJECT 2</title>
+    <title>&#9835; I &#x2765 MUSIC </title>
     <link rel="stylesheet" href="style.css" charset="utf-8">
     <script type="text/javascript" src="main.js"></script>
     <script type="text/javascript" src = "API_KEY.js"></script>
@@ -31,37 +31,36 @@
           </form>
 
   <div id="artist-template"></div>
-      <script id="artist-widget" type="text/x-handlebars-template">
-          <hr></hr>
-        <section id="artist">
-        <h3>{{artist.name}}</h3>
+    <script id="artist-widget" type="text/x-handlebars-template">
+        <hr></hr>
+          <section id="artist">
+              <h3>{{artist.name}}</h3>
           </section>
 
           <section id="band">
-              <img src={{image}}>
-                <h4>{{tag}}</h4>
-                  <p>{{url}}</p>
-              </section>
+            <img src={{image}}>
+              <h4>{{tag}}</h4>
+              <p>{{url}}</p>
+            </section>
 
               <section id="about">
-                  <p>{{artist.bio.content}}</p>
+                <p>{{artist.bio.content}}</p>
                 </section>
-
               <hr></hr>
 
           <section id="similar">
               <p>{{#each artist.similar.artist}} </p>
-                  <h3>{{name}}</h3>
-                    <p>{{url}}</p>
+                <h3>{{name}}</h3>
+                  <p>{{url}}</p>
                 {{/each}}
-              </section>
+            </section>
               <br></br>
                 <a href="#">I &#x2765 MUSIC</a>
             </script>
-
       <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js" charset="utf-8"></script>
-</br>
-</br>
+  </br>
+  </br>
+
   <footer>
     <div id="social">
     <a href="mailto:drewwolfson1@gmail.com">
