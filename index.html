@@ -18,47 +18,47 @@
               <a href="#about">BIO</a>
               <a href="#similar">SIMILAR</a>
               <a id="head" style="color:limegreen;">I &#x2765 MUSIC</a>
+              <a href="#discover">DISCOVER</a>
+
             </nav>
       </header>
+        <h2>DISCOVER MUSIC</h2>
       <!-- <div class="hero">
           </div> -->
-    <img src="https://media.giphy.com/media/9Fiyr5sEBehXi/giphy.gif" alt="">
-          <h2>DISCOVER MUSIC</h2>
-          <h4> &#9836; &#9835;	&#9835;	&#9834; &#9836;  &#9836; 	&#9835;</h4>
-              <form id = "value">
-                  <input id ="userInput" type="textbox" placeholder="Serch by artist...."></input>
-                 </label>
-             <button id="submit-btn" type="button">&#x2765</button>
-          </form>
-
+    <img src="https://media.giphy.com/media/9Fiyr5sEBehXi/giphy.gif" alt="" style="height:200px; width:300px">
+        <form id = "value">
+              <input id ="userInput" type="textbox" placeholder="Serch by artist...."></input>
+             </label>
+           <button id="submit-btn" type="button">&#x2765</button>
+      </form>
   <div id="artist-template"></div>
     <script id="artist-widget" type="text/x-handlebars-template">
         <hr></hr>
           <section id="artist">
               <h3>{{artist.name}}</h3>
-          </section>
+              </section>
 
-          <section id="band">
-            <img src={{image}}>
-              <h4>{{tag}}</h4>
-              <p>{{url}}</p>
-            </section>
+            <section id="band">
+              <img src={{image}}>
+                <h4>{{tag}}</h4>
+                <p>{{url}}</p>
+              </section>
 
-              <section id="about">
-                <p>{{artist.bio.content}}</p>
-                </section>
-              <hr></hr>
+                <section id="about">
+                  <p>{{artist.bio.content}}</p>
+                  </section>
+                <hr></hr>
 
-          <section id="similar">
-              <p>{{#each artist.similar.artist}} </p>
-                <h3>{{name}}</h3>
-                  <p>{{url}}</p>
-                {{/each}}
-            </section>
-              <br></br>
-                <a href="#">I &#x2765 MUSIC</a>
-            </script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js" charset="utf-8"></script>
+            <section id="similar">
+                <p>{{#each artist.similar.artist}} </p>
+                  <h3>{{name}}</h3>
+                    <p>{{url}}</p>
+                  {{/each}}
+              </section>
+                <br></br>
+                  <a href="#">I &#x2765 MUSIC</a>
+              </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js" charset="utf-8"></script>
   </br>
   </br>
 

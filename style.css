@@ -5,20 +5,25 @@
 @import url(https://fonts.googleapis.com/css?family=Frijole);
 @import url(https://fonts.googleapis.com/css?family=Nosifer);
 
+
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+@import url('https://fonts.googleapis.com/css?family=Palanquin+Dark:500|Raleway');
+
+
 * {
   text-align: center;
-  padding: 5px;
+
 }
 
 h1 {
   color: black;
-  font-family: 'Fredericka the Great', cursive;
-  padding: 38px;
+  font-family: 'Palanquin Dark', sans-serif;
 
 }
 
 h2 {
-  font-family: 'Nosifer', cursive;
+  font-family: 'Palanquin Dark', sans-serif;
   color: limegreen;
   padding-bottom: 5px;
   font-size: 32px;
@@ -26,7 +31,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Megrim', cursive;
+  font-family: 'Palanquin Dark', sans-serif;
   text-decoration: bold;
   color: limegreen;
   padding-top: 50px;
@@ -42,11 +47,12 @@ h4 {
 
 header {
     width: 100%;
-    height: 40px;
-    background-color: #101;
+    height: 30px;
+    background-color: #e74c3c;
     position: fixed;
     top: 0;
     left: 0;
+    opacity: .9;
 
 }
 
@@ -63,7 +69,7 @@ a {
 nav a {
   color: white;
   float: left;
-  font-family: 'Frijole', cursive;
+  font-family: 'Raleway', sans-serif;
   padding: 5px 20px;
   border-right: 1px solid #fff;
   letter-spacing: 2px;
@@ -73,7 +79,7 @@ nav a {
 }
 
 button {
-  width: 100px;
+  width: 80px;
   height: 50px;
   font-family: 'Bangers', cursive;
   padding-top: 0px;
@@ -81,19 +87,29 @@ button {
   color: limegreen;
   font-size: 25px;
   border: outset grey;
-  padding: 10px;
+  padding: 1px;
 
+}
+
+button:hover {
+  width: 80px;
+  height: 50px;
+  font-family: 'Bangers', cursive;
+  padding-top: 0px;
+  background-color: white;
+  color: red;
+  cursor: default;
 }
 
 input {
   font-family: 'Bangers', cursive;
-  font-size: 30px;
-  color: limegreen;
+  font-size: 20px;
+  color: #e74c3c;
   width: 200px;
-  height: 20px;
-  padding: 20px;
-  background-color: black;
-  border: outset white;
+  height: 10px;
+  padding: 10px;
+  background-color: #ffff;
+  border: 2px solid red ;
 
 }
 
@@ -145,13 +161,11 @@ input {
 
 
 
-/*.hero{
-  top: 0;
-  left: 0;
+.hero {
   width: 100%;
-  height: 800px;
-  background-image: url("file:///Users/Drew/Desktop/wdi-al-Khwarizmi/Projects/project-two/images/music-wallpaper.jpg");
+  height: 700px;
+  background: url("./images/pink.png") no-repeat center center scroll;
   background-size: cover;
-  font-family: 'Megrim', cursive;
-  color: white;
-}*/
+  top:0;
+  left:0;
+}
