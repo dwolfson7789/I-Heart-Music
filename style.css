@@ -79,12 +79,12 @@ nav a {
 }
 
 button {
-  width: 80px;
-  height: 50px;
+  width: 100px;
+  height: 40px;
   font-family: 'Bangers', cursive;
   padding-top: 0px;
   background-color: black;
-  color: limegreen;
+  color: #ecf0f1;
   font-size: 25px;
   border: outset grey;
   padding: 1px;
@@ -92,10 +92,7 @@ button {
 }
 
 button:hover {
-  width: 80px;
-  height: 50px;
   font-family: 'Bangers', cursive;
-  padding-top: 0px;
   background-color: white;
   color: red;
   cursor: default;
