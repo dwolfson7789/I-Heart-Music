@@ -1,12 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Megrim);
 @import url(https://fonts.googleapis.com/css?family=Rock+Salt);
 @import url(https://fonts.googleapis.com/css?family=Bangers);
 @import url(https://fonts.googleapis.com/css?family=Henny+Penny);
-@import url(https://fonts.googleapis.com/css?family=Frijole);
 @import url(https://fonts.googleapis.com/css?family=Nosifer);
-
-
-@import url(https://fonts.googleapis.com/css?family=Pacifico);
 @import url(https://fonts.googleapis.com/css?family=Bangers);
 @import url('https://fonts.googleapis.com/css?family=Palanquin+Dark:500|Raleway');
 
@@ -77,8 +72,6 @@ nav a {
   font-size: 17px;
 
 }
-
-
 
 nav a:hover {
   background-color: #e74c3c;
